@@ -9,5 +9,10 @@ crate-type = ["cdylib", "rlib"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ring = "0.16.20"
 wasm-bindgen = { version = "0.2.80" }
+
+[dependencies.ring]
+git = "https://github.com/oliverdunk/ring.git"
+branch = "service-worker-scope"
+default-features = false
+features = ["wasm32_unknown_unknown_js"]
