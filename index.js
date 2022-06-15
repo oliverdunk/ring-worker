@@ -1,3 +1,3 @@
-import * as wasm from "./ring-wasm/pkg";
+import * as wasm from "./sys-locale-wasm/pkg";
 
-console.log("Hello World:", wasm.get_random_data());
+console.log("Hello World:", wasm.get_locale());

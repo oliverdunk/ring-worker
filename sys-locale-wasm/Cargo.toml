@@ -1,0 +1,16 @@
+[package]
+name = "sys-locale-worker-test"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = { version = "0.2.80" }
+
+[dependencies.sys-locale]
+git = "https://github.com/oliverdunk/sys-locale"
+branch = "wasm-worker"

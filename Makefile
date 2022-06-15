@@ -1,4 +1,4 @@
 run:
-	cd ring-wasm && wasm-pack build
+	cd sys-locale-wasm && wasm-pack build
 	npm install
 	npm start

@@ -1,4 +1,4 @@
 node_modules
 dist
-ring-wasm/pkg
-ring-wasm/target
+sys-locale-wasm/pkg
+sys-locale-wasm/target
